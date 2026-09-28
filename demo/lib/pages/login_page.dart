@@ -46,28 +46,15 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 35),
 
               // LOGO
-              Container(
-                width: 85,
-                height: 85,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color: Colors.grey,
-                    width: 5,
-                  ),
-                ),
-                child: const Center(
-                  child: Text(
-                    'CC',
-                    style: TextStyle(
-                      color: primaryRed,
-                      fontSize: 25,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ),
-              ),
+              // LOGO
+ClipOval(
+  child: Image.asset(
+    'image.png', // Change to your photo's filename
+    width: 85,
+    height: 85,
+    fit: BoxFit.cover,
+  ),
+),
 
               const SizedBox(height: 15),
 
