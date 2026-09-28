@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../theme/app_theme.dart';
 import '../widgets/achievement_card.dart';
 
 class AchievementsPage extends StatelessWidget {

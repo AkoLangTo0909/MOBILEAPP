@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../theme/app_theme.dart';
+
 import '../widgets/institute_card.dart';
 import 'institute_details_page.dart';
 
