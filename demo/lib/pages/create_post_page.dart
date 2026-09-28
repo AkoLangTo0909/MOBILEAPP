@@ -77,7 +77,7 @@ class _CreatePostPageState extends State<CreatePostPage> {
             const SizedBox(height: 7),
 
             DropdownButtonFormField<String>(
-              value: category,
+              initialValue: category,
               decoration: InputDecoration(
                 filled: true,
                 fillColor: cardColor,
