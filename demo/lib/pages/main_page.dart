@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_page.dart';
 import 'events_page.dart';
 import 'create_post_page.dart';
-import 'admin_page.dart';
+import 'notification_page.dart';
 import 'profile_page.dart';
 import '../theme/app_theme.dart';
 
@@ -63,9 +63,9 @@ class _MainPageState extends State<MainPage> {
             label: 'Create',
           ),
           NavigationDestination(
-            icon: Icon(Icons.admin_panel_settings_outlined),
+            icon: Icon(Icons.notifications),
             selectedIcon: Icon(
-              Icons.admin_panel_settings,
+              Icons.notifications,
               color: primaryRed,
             ),
             label: 'Notification',
