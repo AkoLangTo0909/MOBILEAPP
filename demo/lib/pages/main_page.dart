@@ -68,7 +68,7 @@ class _MainPageState extends State<MainPage> {
               Icons.admin_panel_settings,
               color: primaryRed,
             ),
-            label: 'Admin',
+            label: 'Notification',
           ),
           NavigationDestination(
             icon: Icon(Icons.person_outline),

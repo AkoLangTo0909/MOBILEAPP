@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Good day, Juan! 👋',
+                    'Welcome To Campus Cronicles!!!',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 16,

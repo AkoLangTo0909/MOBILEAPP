@@ -14,7 +14,7 @@ class AdminPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Admin Moderation',
+              'Noification!',
               style: TextStyle(
                 fontSize: 23,
                 fontWeight: FontWeight.bold,
